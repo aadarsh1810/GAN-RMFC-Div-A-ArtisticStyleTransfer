@@ -16,7 +16,7 @@ The CycleGAN architecture consists of two main components: generators and discri
 
 ## VGG-19 Architecture
 
-![VGG-19 Architecture](images/vgg19_architecture.png)
+![VGG-19 Architecture](Images/The-architecture-of-the-VGG-19-model.png)
 
 The VGG-19 architecture is a deep convolutional neural network pretrained on large-scale image classification tasks. It comprises multiple convolutional and pooling layers, followed by fully connected layers. For artistic style transfer, VGG-19 is used to extract feature representations from both the content and style images. By minimizing the content and style differences between the generated image and the input content image, VGG-19 achieves style transfer.
 
