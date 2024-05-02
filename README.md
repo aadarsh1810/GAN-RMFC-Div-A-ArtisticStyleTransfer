@@ -29,3 +29,15 @@ The VGG-19 architecture is a deep convolutional neural network pretrained on lar
 1. Clone this repository:
    ```bash
    git clone https://github.com/your_username/artistic-style-transfer.git
+
+2. Explore the provided Jupyter notebooks for CycleGAN and VGG-19 implementations.
+3. Experiment with different images and artistic styles to experience the power of artistic style transfer.
+
+## Credits
+
+- CycleGANs implementation inspired by [CycleGAN-TensorFlow](https://github.com/LynnHo/CycleGAN-Tensorflow)
+- VGG-19 implementation adapted from [pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
