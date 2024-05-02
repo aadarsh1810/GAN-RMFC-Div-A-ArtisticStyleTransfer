@@ -1,0 +1,31 @@
+# Artistic Style Transfer with CycleGANs and VGG-19
+
+## Overview
+
+This project explores two different approaches to artistic style transfer: CycleGANs and Neural Style Transfer (NST) using the VGG-19 model. CycleGANs are trained to transform ordinary photographs into Monet-style paintings, while the VGG-19 model enables fast and efficient style transfer with pretrained weights. Users can experiment with both methods to apply various artistic styles to their images and compare the results.
+
+## CycleGAN Architecture
+
+![CycleGAN Architecture](images/cyclegan_architecture.png)
+
+The CycleGAN architecture consists of two main components: generators and discriminators. Generators learn to translate images from one domain to another (e.g., photos to Monet-style paintings), while discriminators distinguish between real and generated images. Through adversarial training, CycleGANs can effectively capture the style of a given artist (e.g., Monet) and apply it to input photographs.
+
+**Libraries used:**
+- TensorFlow
+- TensorFlow Addons (for CycleGAN)
+
+## VGG-19 Architecture
+
+![VGG-19 Architecture](images/vgg19_architecture.png)
+
+The VGG-19 architecture is a deep convolutional neural network pretrained on large-scale image classification tasks. It comprises multiple convolutional and pooling layers, followed by fully connected layers. For artistic style transfer, VGG-19 is used to extract feature representations from both the content and style images. By minimizing the content and style differences between the generated image and the input content image, VGG-19 achieves style transfer.
+
+**Libraries used:**
+- TensorFlow
+- NumPy
+
+## Getting Started
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your_username/artistic-style-transfer.git
