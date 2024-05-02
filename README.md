@@ -35,7 +35,7 @@ The VGG-19 architecture is a deep convolutional neural network pretrained on lar
 
 ## Credits
 
-- CycleGANs implementation inspired by [CycleGAN-TensorFlow](https://github.com/LynnHo/CycleGAN-Tensorflow)
+- CycleGANs implementation inspired by [CycleGAN-TensorFlow](https://github.com/LynnHo/CycleGAN-Tensorflow-2)
 - VGG-19 implementation adapted from [pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations)
 
 ## License
