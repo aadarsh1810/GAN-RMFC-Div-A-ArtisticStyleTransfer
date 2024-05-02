@@ -6,7 +6,7 @@ This project explores two different approaches to artistic style transfer: Cycle
 
 ## CycleGAN Architecture
 
-![CycleGAN Architecture](images/cyclegan_architecture.png)
+![CycleGAN Architecture](Images/CycleGAN.png)
 
 The CycleGAN architecture consists of two main components: generators and discriminators. Generators learn to translate images from one domain to another (e.g., photos to Monet-style paintings), while discriminators distinguish between real and generated images. Through adversarial training, CycleGANs can effectively capture the style of a given artist (e.g., Monet) and apply it to input photographs.
 
