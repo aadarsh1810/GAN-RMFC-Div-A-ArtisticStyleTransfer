@@ -14,6 +14,9 @@ The CycleGAN architecture consists of two main components: generators and discri
 - TensorFlow
 - TensorFlow Addons (for CycleGAN)
 
+**Sample Styles**
+![Sample Styles](Images/sample_styles.jpg)
+
 ## VGG-19 Architecture
 
 ![VGG-19 Architecture](Images/The-architecture-of-the-VGG-19-model.png)
